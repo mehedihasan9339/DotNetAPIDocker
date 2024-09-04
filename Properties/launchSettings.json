@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "DotNetAPIDocker": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings__DefaultConnection": "Host=db;Port=5432;Database=EmpDemoDb;Username=postgres;Password=sa@123;"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5000"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings__DefaultConnection": "Host=db;Port=5432;Database=EmpDemoDb;Username=postgres;Password=sa@123;"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:14526/",
+      "sslPort": 0
+    }
+  }
+}
